@@ -25,11 +25,11 @@
             ?>
 					<form action="./results.php" method="post" target="results">
 						<label for="side-a">Side a (m):</label>
-						<input type="number" step="any" id="side-a" placeholder="Enter side a (m)"><br><br>
+						<input type="number" step="any" name="side-a" placeholder="Enter side a (m)"><br><br>
 						<label for="side-b">Side b (m):</label>
-						<input type="number" step="any" id="side-b" placeholder="Enter side b (m)"><br><br>
+						<input type="number" step="any" name="side-b" placeholder="Enter side b (m)"><br><br>
 						<label for="height">Height (m):</label>
-						<input type="number" step="any" id="height" placeholder="Enter height (m)"><br><br>
+						<input type="number" step="any" name="height" placeholder="Enter height (m)"><br><br>
 						<input type="submit" value="Calculate Volume">
 					</form>
 				</td>
@@ -41,8 +41,6 @@
 		</table>
 		<!-- Create a space where the user information will be displayed -->
 		<iframe id="results" name="results"></iframe>
-			</div>
-		</div>
     </center>
   </body>
 </html>
