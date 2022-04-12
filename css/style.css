@@ -1,0 +1,30 @@
+/* Created by: Brayden MacMillan
+* Created on: April 2022
+* This CSS file defines the style for index.php
+* ICS2O-Unit3-02-PHP-VolumePyramid
+*/
+
+body {
+	background-color: rgb(188, 215, 235);
+}
+
+h1 {
+	background-color: rgb(255, 82, 99);
+	color: hsl(0, 0%, 0%);
+	padding: 40px;
+	text-align: center;
+}
+
+p {
+	background-color: #c6fbe0;
+}
+
+div {
+  font-weight: bold;
+  color: #2ddaf0;
+  margin: 5px;
+}
+
+#display-results{
+  background-color: #4cb4c2;
+}
